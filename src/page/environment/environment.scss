@@ -1,0 +1,124 @@
+.EnvironmentPage{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Environment__img{
+    width: 100%;
+    img{
+        width: 100%;
+            height: 600px;
+    }
+}
+
+.Environment__body{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: rgb(207, 4, 4);
+        font-size: 50px;
+    }
+}
+
+
+   .Environment__infor{
+        display: flex;
+        gap: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        .divider{
+            background-color: white;
+            width: 2px;
+            height: 400px;
+            
+        }
+        .Environment__left{
+            background-color: white;
+            width: 420px;
+            height: 800px;
+            border-radius: 25px;
+            img{
+                width: 380px;
+                height: 300px;
+                border-radius: 25px;
+                margin-top: 18px;
+            }
+        }
+        
+        .Environment__right{
+            background-color: white;
+            width: 420px;
+            height: 800px;
+            border-radius: 25px;
+        }
+   } 
+
+   .Environment__form1 .ant-input  {
+    width: 80%; /* Thay đổi chiều rộng của các trường Input */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+  }
+    
+  
+  .Environment__form1 .ant-select {
+    width: 80%; /* Điều chỉnh chiều rộng của Select */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa nếu cần */
+  }
+  
+  .Environment__form1{
+    .ant-form-item-label{
+        margin-left: 20px;
+    }
+  }
+  
+
+  .Environment__but1{
+    background-color:rgb(207, 4, 4) ;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    bottom: 20px;
+    border: 1px solid black;
+}
+
+.Environment__form2 .ant-input  {
+    width: 80%; /* Thay đổi chiều rộng của các trường Input */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+  }
+    
+  
+  .Environment__form2 .ant-select {
+    width: 80%; /* Điều chỉnh chiều rộng của Select */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa nếu cần */
+  }
+  
+  .Environment__form2{
+    margin-top: 70px;
+    .ant-form-item-label{
+        margin-left: 20px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 5px 10px;
+        border: 1px solid rgb(169, 169, 169);
+        width: 270px;
+        border-radius: 7px;
+        position: relative;
+        left: 60px;
+    }
+  }

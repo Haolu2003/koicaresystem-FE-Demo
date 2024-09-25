@@ -1,0 +1,114 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    border: 1px solid white;
+    &__logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        margin-right: 10px;
+        margin-left: 60px;
+      }
+  
+      h2 {
+        font-size: 24px;
+        color: white;
+      }
+    }
+  
+    &__nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+      }
+
+      a:hover{
+        color: rgb(198, 40, 5);
+      }
+  
+      .nav__menu {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        flex-grow: 1; /* Giúp phần tử này lấp đầy không gian trống */
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+        margin-bottom: 20px;
+        margin-right: 70px;
+      }
+    }
+  }
+  
+
+
+
+  /* Style cho sidebar */
+.sidebar {
+    position: fixed;
+    top: 70px;
+    right: 0; /* Vị trí ban đầu của sidebar ra ngoài màn hình */
+    height: 52%; /* Sidebar chiếm toàn bộ chiều cao */
+    background-color: #a30303;
+    width: 150px;
+    z-index: 1001; // ưu tiên side bar nổi trên 
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 0 0 5px;
+    transition: all 1s ease; /* Thêm hiệu ứng chuyển động cho mọi thuộc tính */
+    transform: translateX(100%); /* Ban đầu sidebar ở ngoài màn hình */
+  }
+  
+  .sidebar.active {
+    transform: translateX(0); /* Khi active, sidebar trượt vào trong */
+  }
+  
+  /* Style cho các link trong sidebar */
+  .sidebar a {
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    background-color: #8b0101;
+  }
+  
+  .sidebar .closebtn {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Overlay trong suốt */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Trong suốt */
+    z-index: 1000;
+  }
+  

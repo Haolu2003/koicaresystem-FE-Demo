@@ -1,0 +1,115 @@
+.Addpage{
+    min-width: 102%;
+    min-height: 100vh; 
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+
+}
+
+.Addpage__background{
+    width: 100%;
+    img{
+        width: 100%;
+        max-height: 400px;
+    }
+}
+
+.Addpage__Title{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    h1{
+        color: rgb(207, 4, 4);
+        font-size: 50px;
+    }
+}
+  
+.Addpage__information{
+    background-color: white;
+    width: 70%;
+    height: 380px;
+    border-radius: 25px;
+    display: flex;
+    margin-left: 220px;
+}
+
+.Addpage__img{
+    img{
+        border-radius: 25px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 350px;
+        width: 350px;
+    }
+}
+
+.Addpage_inf{
+    display: flex;
+    gap: 20px;
+}
+
+.character__1, .character__2, .character__3{
+    margin-left: 15px;
+    input{
+        position: relative;
+        bottom:10px;
+        height:30px;
+        width:170px;
+    }
+
+    
+}
+
+.Addpage__Link{
+    display: flex;
+    gap: 300px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 31px;
+    a{
+        display: flex;
+        background-color:rgb(207, 4, 4) ;
+        width: 250px;
+        height: 70px;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+}
+
+.Addpage__but2{
+        background-color:rgb(207, 4, 4) ;
+        color: white;
+        width: 250px;
+        height: 70px;
+        font-size: 30px;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+        position: relative;
+        bottom: 20px;
+}
+
+.Addpage__footer{
+    background-color: black;
+    height: 100px;
+}
+
+.ant-form-item-label {
+    font-weight: bold; /* Làm chữ label đậm hơn */
+    font-size: 20px;   /* Tăng kích thước chữ label */
+  }
+
+
+  
